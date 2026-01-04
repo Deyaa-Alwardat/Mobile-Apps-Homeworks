@@ -10,13 +10,14 @@ void main(){
   print("Enter Number:");
   int number=int.parse(stdin.readLineSync()!);
   if(number>0){
-    print("a Number is Psoitve");
+    print("The Number is Positive");
   }
   else if(number<0){
-    print("A Number is Negative");
+    print("The Number is Negative");
   }
 else{
-  print("A Number is Zero");
+  print("The Number is Zero");
 }
+
 
 }
